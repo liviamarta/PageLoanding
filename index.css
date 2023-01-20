@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-image:url(imagens/tela_fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+h1{
+    text-decoration: none;
+    color: black;
+    font-size: vw;
+    margin-right: 3vw;
+    transition: 1s;
+    font-family:'Trebuchet MS';
+}
+h1:hover{
+    color: rgb(110, 39, 39);
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7vw;
+    margin-right: 3vw;
+    transition: 1s;
+}
+nav a:hover{
+    color: rgb(110, 39, 39);
+}
+h2{
+    text-align: center;
+    margin-top: 23vw;
+    font-size: 60px;
+    color: white;
+    margin-bottom: -0.5vw;
+}
+p{
+    text-align: center;
+    font-size: 1.7vw;
+    color: white;
+
+}
+.pesquisa a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 40vw;
+    padding-left: 1.2vw;
+    padding-right: 1.2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border: 0.3vw solid rgb(110, 39, 39);
+    border-radius: 3vw;
+    transition: 1s;
+}
+.pesquisa a:hover{
+    background-color: rgb(110, 39, 39);
+    transform: scale(1.1);
+}
